@@ -1,0 +1,49 @@
+/* my css styles for HEADER, MAIN, FOOTER */
+
+header {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+main {
+  background-color:tan;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+  text-align: center;
+  padding: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+footer, h6 {
+  padding-left: 25px;
+}  
+header h3 {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+header h1 {
+  margin-top: 0;
+}
+ul, ol {
+  list-style-position: inside;
+}
+ol {
+  padding-bottom: 10px;
+  margin: 0;
+}
+img {
+  width: 200px;
+  padding-top: 15px;
+  height: 250px;
+}
+
+.dark-background {              /* another pseudo-classes */
+  background-color: brown;
+  color: tan;
+}
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+a:active  { color: gray;  }
