@@ -16,7 +16,7 @@ footer {
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
 }
-footer, h6 {
+footer, h4 {
   padding-left: 25px;
 }  
 header h3 {
@@ -43,7 +43,7 @@ img {
   background-color: brown;
   color: tan;
 }
-a:link    { color: blue;  }
-a:visited { color: red;   }
-a:hover   { color: green; }
+a:link    { color: darkblue;  }
+a:visited { color: darkblue;}
+a:hover   { color: darkred; }
 a:active  { color: gray;  }
